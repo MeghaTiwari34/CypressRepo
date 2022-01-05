@@ -1,0 +1,22 @@
+{
+    "loginData": {
+        "validUsername": "Random0022",
+        "validPassword": "Random0022@",
+        "invalidUsername": "CypressTest",
+        "invalidPassword": "12345"
+    },
+    "registerData":{
+        "firstname": "customer",
+        "lastname": "one",
+        "address": "address",
+        "city": "noida",
+        "state": "UP",
+        "zipcode": "201301",
+        "phoneNo": "8964737373",
+        "ssn": "4545388833",
+        "existingUsername": "Random0022",
+        "password": "Random0022@"
+    }
+    
+}
+  

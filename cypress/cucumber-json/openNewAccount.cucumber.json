@@ -1,0 +1,113 @@
+[
+  {
+    "description": "    Feature Description",
+    "keyword": "Feature",
+    "name": "Open New Account",
+    "line": 1,
+    "id": "open-new-account",
+    "tags": [],
+    "uri": "openNewAccount.feature",
+    "elements": [
+      {
+        "id": "open-new-account;open-a-new-checking-account",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Open a new checking account",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Open the application url",
+            "result": {
+              "status": "passed",
+              "duration": 5361000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enters the valid user credentials and click login",
+            "result": {
+              "status": "passed",
+              "duration": 3192000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Clicks on Open New Account link and then clicks on Open New Account button",
+            "result": {
+              "status": "passed",
+              "duration": 3280000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "New Account is opened successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1028000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "open-new-account;open-a-new-savings-account",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Open a new savings account",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "Open the application url",
+            "result": {
+              "status": "passed",
+              "duration": 4090000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "User enters the valid user credentials and click login",
+            "result": {
+              "status": "passed",
+              "duration": 3401000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "Clicks on Open New Account link, selects account type as Savings and then clicks on Open New Account button",
+            "result": {
+              "status": "passed",
+              "duration": 2415000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "New Account is opened successfully",
+            "result": {
+              "status": "passed",
+              "duration": 491000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

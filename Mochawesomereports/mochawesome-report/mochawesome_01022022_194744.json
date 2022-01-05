@@ -1,0 +1,125 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-01-02T14:17:23.055Z",
+    "end": "2022-01-02T14:17:44.633Z",
+    "duration": 21578,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ef73ecab-eacb-4214-8f19-a205a75539f8",
+      "title": "",
+      "fullFile": "cypress/integration/features/openNewAccount.feature",
+      "file": "cypress/integration/features/openNewAccount.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9cad7780-6df5-4124-b6b8-475580be98b7",
+          "title": "Open New Account",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Open a new checking account",
+              "fullTitle": "Open New Account Open a new checking account",
+              "timedOut": null,
+              "duration": 10962,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "4b181cc5-ce77-4b87-8724-8428b8dfa3b5",
+              "parentUUID": "9cad7780-6df5-4124-b6b8-475580be98b7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Open a new savings account",
+              "fullTitle": "Open New Account Open a new savings account",
+              "timedOut": null,
+              "duration": 6736,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "d7c08b96-f98f-4f24-8f8c-396eb19da7aa",
+              "parentUUID": "9cad7780-6df5-4124-b6b8-475580be98b7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "4b181cc5-ce77-4b87-8724-8428b8dfa3b5",
+            "d7c08b96-f98f-4f24-8f8c-396eb19da7aa"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 17698,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "Mochawesomereports/mochawesome-report",
+        "overwrite": true,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.0.1"
+    }
+  }
+}

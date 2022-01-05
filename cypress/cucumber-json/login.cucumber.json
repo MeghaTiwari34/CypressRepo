@@ -1,0 +1,98 @@
+[
+  {
+    "description": "    Feature Description",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login;valid-user-login",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Valid User Login",
+        "tags": [
+          {
+            "name": "@ValidLogin",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Open the application url",
+            "result": {
+              "status": "passed",
+              "duration": 5524000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enters the valid user credentials and click login",
+            "result": {
+              "status": "passed",
+              "duration": 3535000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Validate user lands on the Accounts Overview Screen",
+            "result": {
+              "status": "passed",
+              "duration": 87000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;invalid-user-login",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Invalid User Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "Open the application url",
+            "result": {
+              "status": "passed",
+              "duration": 5867000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "User enters the invalid user credentials and click login",
+            "result": {
+              "status": "passed",
+              "duration": 3565000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Validate user lands on the Accounts Overview Screen",
+            "result": {
+              "status": "passed",
+              "duration": 1267000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "description": "    Feature Description",
+    "keyword": "Feature",
+    "name": "Register",
+    "line": 1,
+    "id": "register",
+    "tags": [],
+    "uri": "register.feature",
+    "elements": [
+      {
+        "id": "register;register-a-new-user",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Register a new user",
+        "tags": [
+          {
+            "name": "@ValidRegistration",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Open the application url",
+            "result": {
+              "status": "passed",
+              "duration": 6068000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User clicks on Register link, enters his details and clicks on Register button",
+            "result": {
+              "status": "passed",
+              "duration": 7510000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User is registered successfully",
+            "result": {
+              "status": "passed",
+              "duration": 56000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
