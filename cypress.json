@@ -2,6 +2,7 @@
     
     "testFiles": "**/*.feature",
     "screenshotsFolder": "FailedRunScreenshots",
+    "projectId": "arh85m",
     "reporter": "./node_modules/mochawesome/src/mochawesome.js",
     "reporterOptions": {
       "reportDir": "cypress/Mochawesomereports/mochawesome-report",

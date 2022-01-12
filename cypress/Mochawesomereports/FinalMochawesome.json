@@ -1,15 +1,15 @@
 {
   "stats": {
     "suites": 3,
-    "tests": 5,
-    "passes": 1,
+    "tests": 4,
+    "passes": 4,
     "pending": 0,
-    "failures": 4,
-    "start": "2022-01-08T12:37:01.298Z",
-    "end": "2022-01-08T12:39:34.192Z",
-    "duration": 116330,
-    "testsRegistered": 5,
-    "passPercent": 20,
+    "failures": 0,
+    "start": "2022-01-12T10:39:35.011Z",
+    "end": "2022-01-12T10:40:54.070Z",
+    "duration": 35788,
+    "testsRegistered": 4,
+    "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "731c9fc8-5141-4ca0-9bdf-d104ff2b6b13",
+      "uuid": "ea038032-6492-4487-be7f-1ad0a8cba75b",
       "title": "",
       "fullFile": "cypress/integration/features/login.feature",
       "file": "cypress/integration/features/login.feature",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "be36cdda-f57f-48ca-bdd3-5379aea12dd8",
+          "uuid": "2d4febb1-6e37-4e3a-8fd7-2406d24ee273",
           "title": "Login",
           "fullFile": "",
           "file": "",
@@ -38,56 +38,29 @@
               "title": "Valid User Login",
               "fullTitle": "Login Valid User Login",
               "timedOut": null,
-              "duration": 14056,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "duration": 7463,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
-              "err": {
-                "message": "AssertionError: Timed out retrying after 4000ms: expected 'ParaBank | Error' to include 'ParaBank | Accounts Overview'",
-                "estack": "AssertionError: Timed out retrying after 4000ms: expected 'ParaBank | Error' to include 'ParaBank | Accounts Overview'\n    at Context.eval (https://parabank.parasoft.com/__cypress/tests?p=cypress\\integration\\features\\login.feature:306:14)\n    at Context.resolveAndRunStepDefinition (https://parabank.parasoft.com/__cypress/tests?p=cypress\\integration\\features\\login.feature:10810:29)\n    at Context.eval (https://parabank.parasoft.com/__cypress/tests?p=cypress\\integration\\features\\login.feature:10131:35)",
-                "diff": null
-              },
-              "uuid": "86970f8b-5f16-40da-9cfc-a79577ad18b2",
-              "parentUUID": "be36cdda-f57f-48ca-bdd3-5379aea12dd8",
-              "isHook": false,
-              "skipped": false
-            },
-            {
-              "title": "Invalid User Login",
-              "fullTitle": "Login Invalid User Login",
-              "timedOut": null,
-              "duration": 12640,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
-              "pending": false,
-              "context": null,
-              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
-              "err": {
-                "message": "AssertionError: Timed out retrying after 4000ms: expected 'ParaBank | Error' to include 'ParaBank | Accounts Overview'",
-                "estack": "AssertionError: Timed out retrying after 4000ms: expected 'ParaBank | Error' to include 'ParaBank | Accounts Overview'\n    at Context.eval (https://parabank.parasoft.com/__cypress/tests?p=cypress\\integration\\features\\login.feature:306:14)\n    at Context.resolveAndRunStepDefinition (https://parabank.parasoft.com/__cypress/tests?p=cypress\\integration\\features\\login.feature:10810:29)\n    at Context.eval (https://parabank.parasoft.com/__cypress/tests?p=cypress\\integration\\features\\login.feature:10131:35)",
-                "diff": null
-              },
-              "uuid": "de271c27-3d00-4f78-af16-19f6230d4160",
-              "parentUUID": "be36cdda-f57f-48ca-bdd3-5379aea12dd8",
+              "err": {},
+              "uuid": "4671b3d0-50e2-4eef-9e1e-3fcb8a264bca",
+              "parentUUID": "2d4febb1-6e37-4e3a-8fd7-2406d24ee273",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [],
-          "failures": [
-            "86970f8b-5f16-40da-9cfc-a79577ad18b2",
-            "de271c27-3d00-4f78-af16-19f6230d4160"
+          "passes": [
+            "4671b3d0-50e2-4eef-9e1e-3fcb8a264bca"
           ],
+          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 26696,
+          "duration": 7463,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -103,7 +76,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "e8a29d45-95bc-427b-be71-5f98ad465f69",
+      "uuid": "dc9b6fe9-5456-4550-b4cb-79b171617c67",
       "title": "",
       "fullFile": "cypress/integration/features/openNewAccount.feature",
       "file": "cypress/integration/features/openNewAccount.feature",
@@ -112,7 +85,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "2cc0a64e-de9f-4b2d-9d24-8bba5d4f994e",
+          "uuid": "556674ac-30af-41e0-9340-bbc90138d122",
           "title": "Open New Account",
           "fullFile": "",
           "file": "",
@@ -123,21 +96,17 @@
               "title": "Open a new checking account",
               "fullTitle": "Open New Account Open a new checking account",
               "timedOut": null,
-              "duration": 39662,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "duration": 9966,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
-              "err": {
-                "message": "CypressError: `cy.screenshot()` timed out waiting `30000ms` to complete.",
-                "estack": "CypressError: `cy.screenshot()` timed out waiting `30000ms` to complete.\n    at https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:159685:81\n    at tryCatcher (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:13196:23)\n    at https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:8318:41\n    at tryCatcher (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:13196:23)\n    at Promise._settlePromiseFromHandler (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:11131:31)\n    at Promise._settlePromise (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:11188:18)\n    at Promise._settlePromise0 (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:11233:10)\n    at Promise._settlePromises (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:11309:18)\n    at _drainQueueStep (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:7903:12)\n    at _drainQueue (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:7896:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:7912:5)\n    at Async.drainQueues (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:7782:14)",
-                "diff": null
-              },
-              "uuid": "1a9845e3-138c-4c9f-977a-1ad0219ce5fe",
-              "parentUUID": "2cc0a64e-de9f-4b2d-9d24-8bba5d4f994e",
+              "err": {},
+              "uuid": "86f11afe-622d-4c18-a5b2-3574130570c5",
+              "parentUUID": "556674ac-30af-41e0-9340-bbc90138d122",
               "isHook": false,
               "skipped": false
             },
@@ -145,34 +114,30 @@
               "title": "Open a new savings account",
               "fullTitle": "Open New Account Open a new savings account",
               "timedOut": null,
-              "duration": 39873,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "duration": 8782,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
-              "err": {
-                "message": "CypressError: `cy.screenshot()` timed out waiting `30000ms` to complete.",
-                "estack": "CypressError: `cy.screenshot()` timed out waiting `30000ms` to complete.\n    at https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:159685:81\n    at tryCatcher (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:13196:23)\n    at https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:8318:41\n    at tryCatcher (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:13196:23)\n    at Promise._settlePromiseFromHandler (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:11131:31)\n    at Promise._settlePromise (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:11188:18)\n    at Promise._settlePromise0 (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:11233:10)\n    at Promise._settlePromises (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:11309:18)\n    at _drainQueueStep (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:7903:12)\n    at _drainQueue (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:7896:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:7912:5)\n    at Async.drainQueues (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:7782:14)",
-                "diff": null
-              },
-              "uuid": "a65898f7-defb-451e-87ea-3ddfbece3dde",
-              "parentUUID": "2cc0a64e-de9f-4b2d-9d24-8bba5d4f994e",
+              "err": {},
+              "uuid": "d6741ad3-65a3-4ffd-b1a2-165891bd6508",
+              "parentUUID": "556674ac-30af-41e0-9340-bbc90138d122",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [],
-          "failures": [
-            "1a9845e3-138c-4c9f-977a-1ad0219ce5fe",
-            "a65898f7-defb-451e-87ea-3ddfbece3dde"
+          "passes": [
+            "86f11afe-622d-4c18-a5b2-3574130570c5",
+            "d6741ad3-65a3-4ffd-b1a2-165891bd6508"
           ],
+          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 79535,
+          "duration": 18748,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -188,7 +153,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "d0595e63-0492-4772-a6d6-76ccf4694dda",
+      "uuid": "5e39fbdc-92c6-4d56-8f65-1c824f57e917",
       "title": "",
       "fullFile": "cypress/integration/features/register.feature",
       "file": "cypress/integration/features/register.feature",
@@ -197,7 +162,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "ebe2080c-797f-4a22-b3db-0055f54701c7",
+          "uuid": "0390a846-0e86-4831-978f-7e901d751235",
           "title": "Register",
           "fullFile": "",
           "file": "",
@@ -208,29 +173,29 @@
               "title": "Register a new user",
               "fullTitle": "Register Register a new user",
               "timedOut": null,
-              "duration": 10099,
+              "duration": 9577,
               "state": "passed",
-              "speed": "slow",
+              "speed": "medium",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "b23b1698-2c33-47e6-805d-964ace4f73ad",
-              "parentUUID": "ebe2080c-797f-4a22-b3db-0055f54701c7",
+              "uuid": "b0567add-d0c9-4a8c-a4f8-1c64c841b0f9",
+              "parentUUID": "0390a846-0e86-4831-978f-7e901d751235",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "b23b1698-2c33-47e6-805d-964ace4f73ad"
+            "b0567add-d0c9-4a8c-a4f8-1c64c841b0f9"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 10099,
+          "duration": 9577,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

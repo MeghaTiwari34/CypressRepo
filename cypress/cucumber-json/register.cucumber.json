@@ -28,7 +28,7 @@
             "name": "Open the application url",
             "result": {
               "status": "passed",
-              "duration": 3079000000
+              "duration": 3816000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "User clicks on Register link, enters his details and clicks on Register button",
             "result": {
               "status": "passed",
-              "duration": 5844000000
+              "duration": 5776000000
             }
           },
           {
@@ -48,7 +48,7 @@
             "name": "User is registered successfully",
             "result": {
               "status": "passed",
-              "duration": 49000000
+              "duration": 38000000
             }
           }
         ]

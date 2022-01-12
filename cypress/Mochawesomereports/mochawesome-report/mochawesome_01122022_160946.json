@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-01-12T10:04:29.008Z",
-    "end": "2022-01-12T10:04:41.832Z",
-    "duration": 12824,
+    "start": "2022-01-12T10:39:35.011Z",
+    "end": "2022-01-12T10:39:46.957Z",
+    "duration": 11946,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,27 +18,27 @@
   },
   "results": [
     {
-      "uuid": "486f57a5-03e7-486d-b679-f76d6eb62f2f",
+      "uuid": "ea038032-6492-4487-be7f-1ad0a8cba75b",
       "title": "",
-      "fullFile": "cypress/integration/features/register.feature",
-      "file": "cypress/integration/features/register.feature",
+      "fullFile": "cypress/integration/features/login.feature",
+      "file": "cypress/integration/features/login.feature",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-          "uuid": "fbac9ff1-8c9b-452b-8ddc-3cdfdf7e489f",
-          "title": "Register",
+          "uuid": "2d4febb1-6e37-4e3a-8fd7-2406d24ee273",
+          "title": "Login",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
             {
-              "title": "Register a new user",
-              "fullTitle": "Register Register a new user",
+              "title": "Valid User Login",
+              "fullTitle": "Login Valid User Login",
               "timedOut": null,
-              "duration": 8919,
+              "duration": 7463,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "c46acd55-11f4-4f25-8c37-88921182f322",
-              "parentUUID": "fbac9ff1-8c9b-452b-8ddc-3cdfdf7e489f",
+              "uuid": "4671b3d0-50e2-4eef-9e1e-3fcb8a264bca",
+              "parentUUID": "2d4febb1-6e37-4e3a-8fd7-2406d24ee273",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "c46acd55-11f4-4f25-8c37-88921182f322"
+            "4671b3d0-50e2-4eef-9e1e-3fcb8a264bca"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 8919,
+          "duration": 7463,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

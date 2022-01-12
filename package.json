@@ -8,7 +8,7 @@
     "merge-report": "mochawesome-merge cypress/Mochawesomereports/mochawesome-report/*.json > cypress/Mochawesomereports/FinalMochawesome.json",
     "generate-report": "marge cypress/Mochawesomereports/FinalMochawesome.json -f report -o cypress/Mochawesomereports",
     "posttest": "npm run merge-report && npm run generate-report && node cucumber-html-report.js",
-    "test": "npx cypress run --headed || npm run posttest"
+    "test": "npx cypress run --record --key e6d34397-041b-459d-894e-649bf51ece2f || npm run posttest"
   },
   "cypress-cucumber-preprocessor": {
     "step_definitions": "cypress/integration/stepDefinitions/",

@@ -2,14 +2,14 @@
   "stats": {
     "suites": 1,
     "tests": 1,
-    "passes": 0,
+    "passes": 1,
     "pending": 0,
-    "failures": 1,
-    "start": "2022-01-12T10:03:15.468Z",
-    "end": "2022-01-12T10:03:36.407Z",
-    "duration": 20939,
+    "failures": 0,
+    "start": "2022-01-12T10:40:41.102Z",
+    "end": "2022-01-12T10:40:54.070Z",
+    "duration": 12968,
     "testsRegistered": 1,
-    "passPercent": 0,
+    "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,53 +18,49 @@
   },
   "results": [
     {
-      "uuid": "a3422d63-acec-4d82-8e58-ed49e1cc9a10",
+      "uuid": "5e39fbdc-92c6-4d56-8f65-1c824f57e917",
       "title": "",
-      "fullFile": "cypress/integration/features/login.feature",
-      "file": "cypress/integration/features/login.feature",
+      "fullFile": "cypress/integration/features/register.feature",
+      "file": "cypress/integration/features/register.feature",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-          "uuid": "72eaa7a5-bddc-4005-9082-97771fc0e8d6",
-          "title": "Login",
+          "uuid": "0390a846-0e86-4831-978f-7e901d751235",
+          "title": "Register",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
             {
-              "title": "Valid User Login",
-              "fullTitle": "Login Valid User Login",
+              "title": "Register a new user",
+              "fullTitle": "Register Register a new user",
               "timedOut": null,
-              "duration": 15567,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "duration": 9577,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
-              "err": {
-                "message": "AssertionError: Timed out retrying after 4000ms: expected 'ParaBank | Error' to include 'ParaBank | Accounts Overview'",
-                "estack": "AssertionError: Timed out retrying after 4000ms: expected 'ParaBank | Error' to include 'ParaBank | Accounts Overview'\n    at Context.eval (https://parabank.parasoft.com/__cypress/tests?p=cypress\\integration\\features\\login.feature:306:14)\n    at Context.resolveAndRunStepDefinition (https://parabank.parasoft.com/__cypress/tests?p=cypress\\integration\\features\\login.feature:10810:29)\n    at Context.eval (https://parabank.parasoft.com/__cypress/tests?p=cypress\\integration\\features\\login.feature:10131:35)",
-                "diff": null
-              },
-              "uuid": "5e29ae35-88ef-42c3-ae15-83cf6884231b",
-              "parentUUID": "72eaa7a5-bddc-4005-9082-97771fc0e8d6",
+              "err": {},
+              "uuid": "b0567add-d0c9-4a8c-a4f8-1c64c841b0f9",
+              "parentUUID": "0390a846-0e86-4831-978f-7e901d751235",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [],
-          "failures": [
-            "5e29ae35-88ef-42c3-ae15-83cf6884231b"
+          "passes": [
+            "b0567add-d0c9-4a8c-a4f8-1c64c841b0f9"
           ],
+          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 15567,
+          "duration": 9577,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
