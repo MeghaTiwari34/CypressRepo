@@ -4,7 +4,7 @@
     "screenshotsFolder": "FailedRunScreenshots",
     "reporter": "./node_modules/mochawesome/src/mochawesome.js",
     "reporterOptions": {
-      "reportDir": "Mochawesomereports/mochawesome-report",
+      "reportDir": "cypress/Mochawesomereports/mochawesome-report",
       "overwrite": true,
       "html": true,
       "json": true,

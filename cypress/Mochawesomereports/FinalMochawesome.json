@@ -1,0 +1,276 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 5,
+    "passes": 1,
+    "pending": 0,
+    "failures": 4,
+    "start": "2022-01-08T12:37:01.298Z",
+    "end": "2022-01-08T12:39:34.192Z",
+    "duration": 116330,
+    "testsRegistered": 5,
+    "passPercent": 20,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "731c9fc8-5141-4ca0-9bdf-d104ff2b6b13",
+      "title": "",
+      "fullFile": "cypress/integration/features/login.feature",
+      "file": "cypress/integration/features/login.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "be36cdda-f57f-48ca-bdd3-5379aea12dd8",
+          "title": "Login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Valid User Login",
+              "fullTitle": "Login Valid User Login",
+              "timedOut": null,
+              "duration": 14056,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: expected 'ParaBank | Error' to include 'ParaBank | Accounts Overview'",
+                "estack": "AssertionError: Timed out retrying after 4000ms: expected 'ParaBank | Error' to include 'ParaBank | Accounts Overview'\n    at Context.eval (https://parabank.parasoft.com/__cypress/tests?p=cypress\\integration\\features\\login.feature:306:14)\n    at Context.resolveAndRunStepDefinition (https://parabank.parasoft.com/__cypress/tests?p=cypress\\integration\\features\\login.feature:10810:29)\n    at Context.eval (https://parabank.parasoft.com/__cypress/tests?p=cypress\\integration\\features\\login.feature:10131:35)",
+                "diff": null
+              },
+              "uuid": "86970f8b-5f16-40da-9cfc-a79577ad18b2",
+              "parentUUID": "be36cdda-f57f-48ca-bdd3-5379aea12dd8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Invalid User Login",
+              "fullTitle": "Login Invalid User Login",
+              "timedOut": null,
+              "duration": 12640,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: expected 'ParaBank | Error' to include 'ParaBank | Accounts Overview'",
+                "estack": "AssertionError: Timed out retrying after 4000ms: expected 'ParaBank | Error' to include 'ParaBank | Accounts Overview'\n    at Context.eval (https://parabank.parasoft.com/__cypress/tests?p=cypress\\integration\\features\\login.feature:306:14)\n    at Context.resolveAndRunStepDefinition (https://parabank.parasoft.com/__cypress/tests?p=cypress\\integration\\features\\login.feature:10810:29)\n    at Context.eval (https://parabank.parasoft.com/__cypress/tests?p=cypress\\integration\\features\\login.feature:10131:35)",
+                "diff": null
+              },
+              "uuid": "de271c27-3d00-4f78-af16-19f6230d4160",
+              "parentUUID": "be36cdda-f57f-48ca-bdd3-5379aea12dd8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "86970f8b-5f16-40da-9cfc-a79577ad18b2",
+            "de271c27-3d00-4f78-af16-19f6230d4160"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 26696,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "e8a29d45-95bc-427b-be71-5f98ad465f69",
+      "title": "",
+      "fullFile": "cypress/integration/features/openNewAccount.feature",
+      "file": "cypress/integration/features/openNewAccount.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2cc0a64e-de9f-4b2d-9d24-8bba5d4f994e",
+          "title": "Open New Account",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Open a new checking account",
+              "fullTitle": "Open New Account Open a new checking account",
+              "timedOut": null,
+              "duration": 39662,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "CypressError: `cy.screenshot()` timed out waiting `30000ms` to complete.",
+                "estack": "CypressError: `cy.screenshot()` timed out waiting `30000ms` to complete.\n    at https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:159685:81\n    at tryCatcher (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:13196:23)\n    at https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:8318:41\n    at tryCatcher (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:13196:23)\n    at Promise._settlePromiseFromHandler (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:11131:31)\n    at Promise._settlePromise (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:11188:18)\n    at Promise._settlePromise0 (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:11233:10)\n    at Promise._settlePromises (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:11309:18)\n    at _drainQueueStep (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:7903:12)\n    at _drainQueue (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:7896:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:7912:5)\n    at Async.drainQueues (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:7782:14)",
+                "diff": null
+              },
+              "uuid": "1a9845e3-138c-4c9f-977a-1ad0219ce5fe",
+              "parentUUID": "2cc0a64e-de9f-4b2d-9d24-8bba5d4f994e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Open a new savings account",
+              "fullTitle": "Open New Account Open a new savings account",
+              "timedOut": null,
+              "duration": 39873,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "CypressError: `cy.screenshot()` timed out waiting `30000ms` to complete.",
+                "estack": "CypressError: `cy.screenshot()` timed out waiting `30000ms` to complete.\n    at https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:159685:81\n    at tryCatcher (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:13196:23)\n    at https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:8318:41\n    at tryCatcher (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:13196:23)\n    at Promise._settlePromiseFromHandler (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:11131:31)\n    at Promise._settlePromise (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:11188:18)\n    at Promise._settlePromise0 (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:11233:10)\n    at Promise._settlePromises (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:11309:18)\n    at _drainQueueStep (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:7903:12)\n    at _drainQueue (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:7896:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:7912:5)\n    at Async.drainQueues (https://parabank.parasoft.com/__cypress/runner/cypress_runner.js:7782:14)",
+                "diff": null
+              },
+              "uuid": "a65898f7-defb-451e-87ea-3ddfbece3dde",
+              "parentUUID": "2cc0a64e-de9f-4b2d-9d24-8bba5d4f994e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "1a9845e3-138c-4c9f-977a-1ad0219ce5fe",
+            "a65898f7-defb-451e-87ea-3ddfbece3dde"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 79535,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "d0595e63-0492-4772-a6d6-76ccf4694dda",
+      "title": "",
+      "fullFile": "cypress/integration/features/register.feature",
+      "file": "cypress/integration/features/register.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ebe2080c-797f-4a22-b3db-0055f54701c7",
+          "title": "Register",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Register a new user",
+              "fullTitle": "Register Register a new user",
+              "timedOut": null,
+              "duration": 10099,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "b23b1698-2c33-47e6-805d-964ace4f73ad",
+              "parentUUID": "ebe2080c-797f-4a22-b3db-0055f54701c7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b23b1698-2c33-47e6-805d-964ace4f73ad"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 10099,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/Mochawesomereports/mochawesome-report",
+        "overwrite": true,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.0.1"
+    }
+  }
+}

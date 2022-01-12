@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    
-    "merge-report": "mochawesome-merge Mochawesomereports/mochawesome-report/*.json > Mochawesomereports/FinalMochawesome.json",
-    "generate-report": "marge Mochawesomereports/FinalMochawesome.json -f report -o Mochawesomereports",
+    "pretest": "rmdir /S /Q cypress\\cucumber-json && rmdir /S /Q cypress\\Mochawesomereports",
+    "merge-report": "mochawesome-merge cypress/Mochawesomereports/mochawesome-report/*.json > cypress/Mochawesomereports/FinalMochawesome.json",
+    "generate-report": "marge cypress/Mochawesomereports/FinalMochawesome.json -f report -o cypress/Mochawesomereports",
     "posttest": "npm run merge-report && npm run generate-report && node cucumber-html-report.js",
     "test": "npx cypress run --headed || npm run posttest"
   },
